@@ -1,0 +1,34 @@
+{
+  "name": "vdocipher-block",
+  "version": "0.5.0",
+  "description": "Add VdoCipher videos to your website using blocks in WordPress 5.0 or with Gutenberg plugin",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "NODE_ENV=development webpack"
+  },
+  "author": "VdoCipher",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@wordpress/eslint-plugin": "^1.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-plugin-react": "^7.11.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
