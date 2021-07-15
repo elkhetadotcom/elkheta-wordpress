@@ -1,0 +1,236 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cowpay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 04:54+0200\n"
+"PO-Revision-Date: 2018-01-30 14:44+0200\n"
+"Last-Translator: Ahmed Hassan <2codeThemes@gmail.com>\n"
+"Language-Team: 2code <2codeThemes@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_n:1,2;_n_noop:1,2;_nx:1,2;_nx_noop:1,2;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: cowpay-paymentgateway.php:42
+msgid "Settings"
+msgstr ""
+
+#: cowpay-paymentgateway.php:58
+msgid "You can pay cash at Fawry using the following transaction number:"
+msgstr ""
+
+#: cowpay_callback.php:15
+msgid "Successfully paid via fawry"
+msgstr ""
+
+#: cowpay_callback.php:18 cowpay_callback.php:19
+msgid "The order was cancelled"
+msgstr ""
+
+#: cowpay_callback.php:22 cowpay_callback.php:23
+msgid "The order was failed"
+msgstr ""
+
+#: cowpay_creditcard.php:12 cowpay_creditcard.php:18 cowpay_payatfawry.php:18
+msgid "Cowpay Credit Card"
+msgstr ""
+
+#: cowpay_creditcard.php:15
+msgid "Cowpay Credit Card Payment Gateway for WooCommerce"
+msgstr ""
+
+#: cowpay_creditcard.php:59 cowpay_payatfawry.php:59
+msgid "Enable / Disable"
+msgstr ""
+
+#: cowpay_creditcard.php:60 cowpay_payatfawry.php:60
+msgid "Enable this payment gateway"
+msgstr ""
+
+#: cowpay_creditcard.php:65 cowpay_payatfawry.php:65
+msgid "Title"
+msgstr ""
+
+#: cowpay_creditcard.php:67 cowpay_payatfawry.php:67
+msgid "Payment title the customer will see during the checkout process."
+msgstr ""
+
+#: cowpay_creditcard.php:68
+msgid "Credit card"
+msgstr ""
+
+#: cowpay_creditcard.php:71 cowpay_payatfawry.php:71 cowpay_setting.php:32
+msgid "Description"
+msgstr ""
+
+#: cowpay_creditcard.php:73 cowpay_payatfawry.php:73
+msgid "Payment description the customer will see during the checkout process."
+msgstr ""
+
+#: cowpay_creditcard.php:74 cowpay_payatfawry.php:74
+msgid "Pay securely using your credit card."
+msgstr ""
+
+#: cowpay_creditcard.php:275
+msgid "Year"
+msgstr ""
+
+#: cowpay_creditcard.php:282
+msgid "Card code"
+msgstr ""
+
+#: cowpay_creditcard.php:283
+msgid "CVC"
+msgstr ""
+
+#: cowpay_creditcard.php:288
+msgid "Card number"
+msgstr ""
+
+#: cowpay_creditcard.php:292
+msgid "Expiry (MM/YY)"
+msgstr ""
+
+#: cowpay_creditcard.php:294
+msgid "Month"
+msgstr ""
+
+#: cowpay_creditcard.php:295
+msgid "January"
+msgstr ""
+
+#: cowpay_creditcard.php:296
+msgid "February"
+msgstr ""
+
+#: cowpay_creditcard.php:297
+msgid "March"
+msgstr ""
+
+#: cowpay_creditcard.php:298
+msgid "April"
+msgstr ""
+
+#: cowpay_creditcard.php:299
+msgid "May"
+msgstr ""
+
+#: cowpay_creditcard.php:300
+msgid "June"
+msgstr ""
+
+#: cowpay_creditcard.php:301
+msgid "July"
+msgstr ""
+
+#: cowpay_creditcard.php:302
+msgid "August"
+msgstr ""
+
+#: cowpay_creditcard.php:303
+msgid "September"
+msgstr ""
+
+#: cowpay_creditcard.php:304
+msgid "October"
+msgstr ""
+
+#: cowpay_creditcard.php:305
+msgid "November"
+msgstr ""
+
+#: cowpay_creditcard.php:306
+msgid "December"
+msgstr ""
+
+#: cowpay_creditcard.php:383 cowpay_payatfawry.php:238
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL certificate "
+"on your checkout page. Please ensure that you have a valid SSL certificate and "
+"that you are <a href=\"%s\">forcing the checkout pages to be secured.</a>"
+msgstr ""
+
+#: cowpay_payatfawry.php:12
+msgid "Cowpay Pay at Fawry"
+msgstr ""
+
+#: cowpay_payatfawry.php:15
+msgid "Cowpay Pay Using Cash at Fawry Payment Gateway for WooCommerce"
+msgstr ""
+
+#: cowpay_payatfawry.php:68 cowpay_setting.php:7
+msgid "Pay at Fawry"
+msgstr ""
+
+#: cowpay_setting.php:4 cowpay_setting.php:5 cowpay_setting.php:28
+msgid "Cowpay Setting"
+msgstr ""
+
+#: cowpay_setting.php:6
+msgid "Credit Card"
+msgstr ""
+
+#: cowpay_setting.php:30
+msgid "Merchant Code"
+msgstr ""
+
+#: cowpay_setting.php:31
+msgid "Merchant Hash"
+msgstr ""
+
+#: cowpay_setting.php:33
+msgid "Callback URL"
+msgstr ""
+
+#: cowpay_setting.php:35
+msgid "Order Status"
+msgstr ""
+
+#: cowpay_setting.php:40
+msgid "This is the Client Code provided by Cowpay when you signed up for an account."
+msgstr ""
+
+#: cowpay_setting.php:45
+msgid ""
+"This is the MERCHANT CODE provided by Cowpay when you signed up for an account."
+"(TerminialIdentifier codes)."
+msgstr ""
+
+#: cowpay_setting.php:50
+msgid ""
+"This is the MERCHANT HASH provided by Cowpay when you signed up for an account."
+msgstr ""
+
+#: cowpay_setting.php:55
+msgid "This is your description."
+msgstr ""
+
+#: cowpay_setting.php:60
+msgid "Please modify \"Callback URL\" in your Cowpay.me account to:"
+msgstr ""
+
+#: cowpay_setting.php:65
+msgid "Place the payment gateway in test mode."
+msgstr ""
+
+#: cowpay_setting.php:70
+msgid "Processing"
+msgstr ""
+
+#: cowpay_setting.php:71
+msgid "Completed"
+msgstr ""
+
+#: cowpay_setting.php:73
+msgid "Choose the order status when the order paid."
+msgstr ""
