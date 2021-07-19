@@ -100,8 +100,8 @@ $show_shopping_cart = buddyboss_theme_get_option( 'shopping_cart' );
 			<?php endif; ?>
 			<span class="search-separator bb-separator"></span>
 			<div class="bb-header-buttons">
-<!--				<a href="wp-login.php?redirect_to=https://elkheta.com&reauth=1" class="xx button small outline signin-button link test">--><?php //_e( 'Sign in', 'buddyboss-theme' ); ?><!--</a>-->
-                <a href="https://elkheta.com/login/" class="xx button small outline signin-button link test"><?php _e( 'Sign in', 'buddyboss-theme' ); ?></a>
+<!--				<a href="wp-login.php?redirect_to=https://stg.elkheta.com&reauth=1" class="xx button small outline signin-button link test">--><?php //_e( 'Sign in', 'buddyboss-theme' ); ?><!--</a>-->
+                <a href="https://stg.elkheta.com/login/" class="xx button small outline signin-button link test"><?php _e( 'Sign in', 'buddyboss-theme' ); ?></a>
 
                 <?php if ( get_option( 'users_can_register' ) ) : ?>
 					<a href="<?php echo wp_registration_url(); ?>" class="button small singup"><?php _e( 'Sign up', 'buddyboss-theme' ); ?></a>

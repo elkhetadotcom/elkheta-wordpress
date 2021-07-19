@@ -22,8 +22,8 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
  * @package WordPress
  */
 
-define( 'WP_HOME', 'elkheta.inet.works' );
-define( 'WP_SITEURL', 'elkheta.inet.works' );
+define( 'WP_HOME', 'https://stg.elkheta.com' );
+define( 'WP_SITEURL', 'https://stg.elkheta.com' );
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -86,4 +86,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define('DOMAIN_CURRENT_SITE', 'elkheta.inet.works');
+define('DOMAIN_CURRENT_SITE', 'https://stg.elkheta.com');

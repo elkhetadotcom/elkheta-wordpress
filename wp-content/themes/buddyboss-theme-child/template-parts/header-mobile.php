@@ -169,7 +169,7 @@ $logo_class = ( $logo_align <= 1 && ( !buddyboss_is_learndash_inner() && !buddyb
 			<?php if ( !is_user_logged_in() ) { ?>
 <!--				<a href="--><?php //echo wp_login_url(); ?><!--" class="button outline small full secondary sign-in">--><?php //_e( 'Sign in', 'buddyboss-theme' ); ?><!--</a>-->
 
-                <a href="https://elkheta.com/login/" class="button outline small full secondary sign-in"><?php _e( 'Sign in', 'buddyboss-theme' ); ?></a>
+                <a href="https://stg.elkheta.com/login/" class="button outline small full secondary sign-in"><?php _e( 'Sign in', 'buddyboss-theme' ); ?></a>
 
                 <?php if ( get_option( 'users_can_register' ) ) { ?>
 					<a href="<?php echo wp_registration_url(); ?>" class="button small full sing-up"><?php _e( 'Sign up', 'buddyboss-theme' ); ?></a>
